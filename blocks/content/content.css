@@ -4,3 +4,15 @@
     margin: 0;
     padding: 0;  
   }
+
+@media screen and (max-width: 768px) {
+  .content {
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content {
+    row-gap: 64px;
+  }
+}

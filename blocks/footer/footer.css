@@ -5,3 +5,22 @@
     min-height: 18px;  
     justify-content: space-between;
   }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 0 24px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .footer {
+    flex-direction: column;
+    min-height: 310px; 
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {    
+    margin: 0 0 24px 16px;    
+  }
+}

@@ -9,3 +9,26 @@
   color: #FFFFFF;
   z-index: 2;
   }
+
+@media screen and (max-width: 720px) {
+  .lead__title {        
+    max-width: 600px;
+    font-size: 75px; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead__title {        
+    max-width: 425px;
+    font-size: 56px; 
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__title {
+    margin: 0 0 16px 0;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

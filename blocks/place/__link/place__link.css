@@ -7,7 +7,7 @@
     color: #FFFFFF;
     margin: 0;
     opacity: 1;
-    transition: opacity linear 0.5s;
+    transition: opacity linear 0.2s;
   }
 
   .place__link:hover {
